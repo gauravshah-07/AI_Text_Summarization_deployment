@@ -1,45 +1,5 @@
-transformers
-transformers[sentencepiece]
-datasets
-sacrebleu 
-rouge_score 
-py7zr
-pandas
-nltk
-tqdm
-PyYAML
-matplotlib
-torch
-notebook
-boto3
-mypy-boto3-s3
-python-box==6.0.2
-ensure==1.0.2
-fastapi==0.78.0
-uvicorn==0.18.3
-Jinja2==3.1.2
-
-# Testing and Development
-pytest>=7.0.0
-pytest-cov>=4.0.0
-pytest-asyncio>=0.21.0
-httpx>=0.24.0
-flake8>=6.0.0
-black>=23.0.0
-isort>=5.12.0
-mypy>=1.0.0
-
-# Enhanced API dependencies
-pydantic>=2.0.0
-requests>=2.28.0
-
-# Simple Flask API
-flask>=2.0.0
-
-# Monitoring and Observability
-prometheus-client>=0.17.0
-
-# Production
+﻿flask>=2.0.0
 gunicorn>=20.1.0
-
--e .
+transformers>=4.20.0
+torch>=1.12.0
+requests>=2.28.0
